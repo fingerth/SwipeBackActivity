@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f358ab11631dcaca238a3a6a558d4a421eae241a\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "D:\\android\\SwipBackDemo\\library\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f358ab11631dcaca238a3a6a558d4a421eae241a\\output\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "D:\\android\\SwipBackDemo\\library\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f358ab11631dcaca238a3a6a558d4a421eae241a\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\android\\SwipBackDemo\\library\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f358ab11631dcaca238a3a6a558d4a421eae241a\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\android\\SwipBackDemo\\library\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
