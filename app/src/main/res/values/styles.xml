@@ -10,7 +10,7 @@
     </style>
 
 
-    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#fff5f5f5</item>
         <item name="colorPrimaryDark">#ff757575</item>
@@ -19,8 +19,11 @@
     </style>
 
     <style name="AppTheme2.Transparent" >
+
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:windowAnimationStyle">@style/SlideRightAnimation</item>
     </style>
 
 </resources>

@@ -1,28 +1,21 @@
 package com.fingerth.swipbackdemo;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.gyf.barlibrary.ImmersionBar;
-
-import me.imid.swipebacklayout.lib.SwipeBackLayout;
-import me.imid.swipebacklayout.lib.app.SwipeBackActivity;
+import com.jude.swipbackhelper.activity.SwipeBaseActivity;
 
 
-public class SwipBackDemoActivity extends SwipeBackActivity {
+public class SwipBackDemoActivity extends SwipeBaseActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_swip_back_demo);
-        SwipeBackLayout mSwipeBackLayout = getSwipeBackLayout();
-        //SwipeBackLayout.EDGE_LEFT 右滑結束
-        //SwipeBackLayout.EDGE_RIGHT 左滑結束
-        //SwipeBackLayout.EDGE_BOTTOM 向上滑結束
-        //SwipeBackLayout.EDGE_ALL 左右向上滑結束
-        //SwipeBackLayout.EDGE_ALL 左右向上滑結束
-        mSwipeBackLayout.setEdgeTrackingEnabled(SwipeBackLayout.EDGE_ALL);
 
         ImmersionBar.with(this)
                 .titleBar(R.id.toolbar)
@@ -32,5 +25,11 @@ public class SwipBackDemoActivity extends SwipeBackActivity {
         TextView tv = (TextView) findViewById(R.id.tv);
 
         tv.setText("右滑動返回");
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SwipBackDemoActivity.this, SwipBackDemoActivity.class));
+            }
+        });
     }
 }

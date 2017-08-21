@@ -3,8 +3,8 @@
     package="me.imid.swipebacklayout.lib.test" >
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="25" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
 
     <instrumentation
         android:name="android.support.test.runner.AndroidJUnitRunner"
@@ -15,7 +15,7 @@
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.1" />
+        android:value="26.0.0-alpha1" />
 
     <application>
         <uses-library android:name="android.test.runner" />
